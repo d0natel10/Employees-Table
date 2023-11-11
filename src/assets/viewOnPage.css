@@ -1,0 +1,71 @@
+
+.container {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 100px; 
+}
+
+.controls {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(174, 229, 192);
+  z-index: 1000; 
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+}
+
+
+.table-container {
+  width: 100%; 
+  overflow: auto; 
+  max-height: calc(100vh - 100px); 
+}
+
+#show-modal-add {
+  margin-left:800px;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 1rem;
+  background-color: rgb(174, 229, 192);
+  color: black;
+  border: none; 
+  border-radius: 10px; 
+  transition: background-color 0.3s ease; 
+  font-family: 'Arial', sans-serif; 
+  cursor: pointer; 
+}
+
+#show-modal-add:hover {
+  background-color: rgb(221, 221, 221); 
+}
+
+#search-input {
+  margin-right: 100px;
+  padding: 10px 10px;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .controls {
+    flex-direction: column;
+    align-items: center;
+  }
+  #show-modal-add {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 601px) {
+  .controls {
+    flex-direction: row;
+  }
+}
+

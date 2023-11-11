@@ -1,0 +1,90 @@
+
+table {
+  border: 2px solid #42b983;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.Edit-devices{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.Edit-devices img{
+  margin-left: 50px;
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+}
+.trash{
+  margin-top:5px;
+}
+
+.notification {
+  color: red;
+  margin-top: 10px;
+}
+
+.notification-wrapper {
+  position: sticky; 
+  bottom: 0; 
+}
+
+.Button-save{
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(212, 212, 212);
+  color:black;
+  font-family: 'Arial', sans-serif; 
+  cursor: pointer;
+}
+
+th {
+  background-color: #42b983;
+  color: rgba(255, 255, 255, 0.66);
+  cursor: pointer;
+  user-select: none;
+}
+p{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+th,
+td {
+  min-width: 120px;
+  padding: 10px 20px;
+}
+
+th.active {
+  color: #fff;
+}
+
+th.active .arrow {
+  opacity: 1;
+}
+
+.arrow {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 0;
+  margin-left: 5px;
+  opacity: 0.66;
+}
+
+.arrow.asc {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid #fff;
+}
+
+.arrow.dsc {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #fff;
+}

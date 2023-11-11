@@ -1,0 +1,55 @@
+
+.input-group {
+    position: relative;
+}
+
+.error-message {
+    position: absolute;
+    bottom: -15px;
+    margin: 0;
+    font-size: 12px;
+    color: red;
+}
+.error-message {
+        color: red;
+    }
+.SearchForm {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+
+.search-bar {
+  display: flex; 
+  align-items: center; 
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+}
+
+.search-icon {
+  height: 20px; 
+  width: 20px; 
+  margin-right: 10px; 
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.Search {
+    margin-top: 20px;
+margin-bottom: 20px;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+.Search:focus {
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.15);
+}
